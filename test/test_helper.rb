@@ -4,7 +4,7 @@ require 'rails/test_help'
 
 # coveralls
 require 'coveralls'
-Coveralls.wear_merged!('rails')
+Coveralls.wear!('rails')
 
 
 
