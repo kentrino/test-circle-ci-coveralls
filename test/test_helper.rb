@@ -6,6 +6,8 @@ require 'rails/test_help'
 require 'coveralls'
 Coveralls.wear!('rails')
 
+
+
 # simplecov 
 require 'simplecov'
 if ENV['CIRCLE_ARTIFACTS']

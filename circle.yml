@@ -21,5 +21,5 @@ database:
     - bundle exec rails db:migrate RAILS_ENV=test
 test:
   override:
-    - bundle exec rails test
+    -  COVERALLS_PARALLEL=true bundle exec rails test
     
