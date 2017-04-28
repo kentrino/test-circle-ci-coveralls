@@ -4,7 +4,7 @@ require 'rails/test_help'
 
 # coveralls
 require 'coveralls'
-Coveralls.wear!('rails')
+Coveralls.wear_merged!('rails')
 
 # simplecov 
 require 'simplecov'
